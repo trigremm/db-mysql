@@ -10,6 +10,6 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 123Password.
-      MYSQL_DATABASE: mysql
+      MYSQL_DATABASE: user_db
       MYSQL_USER: user
       MYSQL_PASSWORD: 123Password.
