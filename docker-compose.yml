@@ -19,7 +19,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - ./storage/db/mysql:/var/lib/mysql
+      - ./db_data:/var/lib/mysql
 
   adminer:
     image: adminer
